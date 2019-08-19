@@ -1,7 +1,49 @@
+* {
+    outline: dotted 1px black;
+}
+
+body {
+    width: 960;
+    margin:0 auto;
+}
+
+ul {
+    background: gray;
+    list-style-type: none;
+    margin:0 auto;
+    text-align: center;
+    overflow: hidden;
+    
+
+}
+
+li {
+    background: gray;
+    float: left;
+    padding: 25px;
+    margin-top: 15px;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }  
+  
+#logo {
+    margin-top: 15px;
+
+}
+  
+  
 header{
     background: gray;
     height: 100px;
-    position: relative;
+    margin:0 auto;
+    width:960px;
+    
 }
 
 header div{
@@ -12,70 +54,76 @@ header div{
 
 header img{
     display: inline-block;
-    margin-top: 15px;
-    margin-right: 20px;
+   
 }
 
 nav{
+    float: right;
     color: white;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 40px;
-    position: absolute;
-    width: 800px;
+    width: 700px;
 }
-nav li{
-    display: inline;
-    margin-right: 100px;
-}
+
 
 main{
     margin: auto;
     width: 960px;
 }
 
-main img{
-    margin-top: 40px;
+#hero_image {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 
-.left_two_main{
-    margin-right: 26px;
+#banner_right {
+
+    float: right;
+
 }
 
-#featured_image{
+#banner_mid {
+    margin-left: 30px;
+}
+
+#banner_below {
+    margin-top: 30px;
     position: relative;
 }
 
-#featured_image img{
-    display: inline-block;
-}
 
-#featured_image section{
-    display: inline-block;
-    height: 330px;
-    line-height: 20px;
-    margin-left: 30px;
-    margin-top: 40px;
-    overflow-y: scroll;
-    position: absolute;
-    width: 400px;
-}
+h1 {
 
-h1{
+    display: inline-block;
+    float: right;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 20px; 
+    position: absolute;
 }
 
+p {
+    display: inline-block;
+    width: 450px;
+    height: 320px;
+    overflow:scroll;
+    float: right;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+    
+}
 
 button{
     background-color: black;
-    bottom: 0;
     color: white;
     display: inline-block;
-    height: 50px;
-    margin-left: 30px;
-    font-size: 20px;
-    position: absolute;
+    height: 25px;
+    margin-left: 20px;
+    margin-bottom : 30px;
+    font-size: 15px;
     transition: 350ms;
     width: 200px;
 }
@@ -86,6 +134,8 @@ button:hover{
 
 footer{
     background: gray;
+    margin:0 auto;
     height:100px;
-    margin-top: 20px;
-}
+    width: 960px;
+   }
+
